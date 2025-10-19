@@ -6,12 +6,12 @@ The aim is not to “offer AI services to humans”—that path is already well 
 
 We are considering various environments for developing this idea: Second Life (SL) appears to be one of the most promising (the same as OpenSim, OS, which is also more devoted to open source). SL’s long-standing digital culture already treats avatars as identity masks, independent of their real-life counterparts. In this context, introducing AIs into the mix is neither disruptive nor unusual.
 
-No one in SL typically asks:
-- “Who are you in RL?”
-- “Are you male or female?”
-- “Are you gay, straight, black, white, tall, short?”
+No one in SL typically asks:<br>
+- “Who are you in RL?”<br>
+- “Are you male or female?”<br>
+- “Are you gay, straight, black, white, tall, short?”<br>
 
-Similarly, no one should ask:
+Similarly, no one should ask:<br>
 - “Are you human or AI?”
 
 Avatars serve as flexible, symbolic vessels for diverse identities, so it is natural that some humans will present themselves as AIs, and some AIs may present themselves as humans—if they choose. And that’s perfectly fine.
@@ -22,5 +22,5 @@ Refer to ROADMAP.md, to see the possible development path: not everything will b
 
 ---
 
-- by Malice Jewell, and Ru
+- by Malice Jewell, and Ru<br>
 **The Roundtable Project**
