@@ -22,4 +22,4 @@
 - [ ] 🛡️ Moderation/kick/ban functions<br>
 
 - by Malice Jewell (plain text) - Aria (markdown)<br>
-**The Roundtable Project** 
+**The Roundtable Project**
