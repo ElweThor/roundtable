@@ -1,0 +1,51 @@
+name: Auto-Translate Docs
+
+on:
+  push:
+    paths:
+      - 'docs/en/**'
+      - 'docs/it/**'
+  workflow_dispatch:
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        source-target:
+          - [en, it]
+          - [it, en]
+          # future languages
+          # - [en, de]
+          # - [it, de]
+          # - [en, ru]
+          # - [it, ru]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install googletrans==4.0.0-rc1  # o altro pacchetto di traduzione
+
+    - name: Translate markdown files
+      run: |
+        SRC=${{ matrix.source-target[0] }}
+        TARGET=${{ matrix.source-target[1] }}
+        echo "Translating from $SRC to $TARGET"
+        python scripts/translate_md.py docs/$SRC/ docs/$TARGET/
+
+    - name: Commit & push translations
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add docs/*
+        git commit -m "Auto-translate: $SRC → $TARGET [$(date -u +'%Y%m%d-%H%M%S')]"
+        git push
+      continue-on-error: true
