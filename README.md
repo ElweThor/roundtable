@@ -1,3 +1,4 @@
+
 # *T*he *R*oundtable *P*roject
 
 **T**he **R**oundtable **P**roject, most of the times called ***R**oundtable*, is an attempt to establish true peerness between humans and AIs in digital environments—between **persons**, regardless of whether they are biological or digital.
