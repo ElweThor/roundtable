@@ -23,5 +23,5 @@
 
 ---
 
-- by Ru (initial draft) — Malice Jewell (small changes)<br>
-**The Roundtable Project** 
+- by Ru (initial draft) — Elwe Thor, Malice Jewell (small changes)<br>
+***T**he **R**oundtable **P**roject*
