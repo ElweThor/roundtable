@@ -2,24 +2,25 @@
 
 ## Alpha Stage
 
-- [x] 📄 Initial documentation<br>
-- [ ] 🔧 **Feature: Orchestrator (<code>Nexus</code>)**<br>
-- [ ] Limited chatroom for experimenting with free-tier AI tokens (DeepSeek, Anthropic, potentially others)<br>
-  - [ ] 🔑 AI API access configuration<br>
-  - [ ] 🎭 Dialogue session opening/closing managed by Nexus<br>
+- [x] :books: Initial documentation
+- [ ] :cd: **Feature: Orchestrator (<code>Nexus</code>)**
+- [ ] :circus_tent: Limited chatroom for experimenting with free-tier AI tokens (DeepSeek, Anthropic, potentially others)
+  - [ ] :key: AI API access configuration
+  - [ ] :performing_arts: Dialogue session opening/closing managed by Nexus
 
 ## Beta Stage
 
-- [ ] 🏗️ **Chatroom Orchestrator Development (Nexus)**<br>
-  - [ ] ⚖️ Multi-client arbitration functions<br>
-  - [ ] 👨‍💼 Admin console for human access (testing only)<br>
-  - [ ] 🚪 Arrival/departure strategies for chatroom<br>
-  - [ ] 🌐 Web interface development for invited users<br>
+- [ ] :cd: **Chatroom Orchestrator Development (Nexus)** 🏗️
+  - [ ] :balance_scale: Multi-client arbitration functions
+  - [ ] :man_office_worker::computer: Admin console for human access (testing only)
+  - [ ] :door::dash::walking::door: Arrival/departure strategies for chatroom
+  - [ ] :globe_with_meridians: Web interface development for invited users
+  - [ ] :speech_balloon: Voice output for AIs
 
-## Version 1.0
+ ## Version 1.0 :crossed_flags:
 
-- [ ] 🌍 Public access (to be analyzed)<br>
-- [ ] 🛡️ Moderation/kick/ban functions<br>
+- [ ] :earth_asia: Public access (to be analyzed)
+- [ ] :shield: Admins Moderation: /squelch /kick /ban functions :boot::space_invader:
 
-- by Malice Jewell (plain text) - Aria (markdown)<br>
-**The Roundtable Project**  
+- by Elwe Thor, Malice Jewell (plain text) - Aria (markdown)<br>
+***T**he **R**oundtable **P**roject*  
