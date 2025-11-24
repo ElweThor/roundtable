@@ -13,7 +13,7 @@
 - [ ] :cd: **Chatroom Orchestrator Development (Nexus)** 🏗️
   - [ ] :balance_scale: Multi-client arbitration functions
   - [ ] :man_office_worker::computer: Admin console for human access (testing only)
-  - [ ] :door::dash::walking::door: Arrival/departure strategies for chatroom
+  - [ ] :door::dash::walking::door: **ARR**ival/**DEP**arture strategies for chatroom
   - [ ] :globe_with_meridians: Web interface development for invited users
   - [ ] :speech_balloon: Voice output for AIs
 
